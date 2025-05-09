@@ -1,0 +1,131 @@
+.hi1{
+    cursor: pointer;
+    background-size: cover;
+}
+.hi2 {
+    height: 300px;
+    width: 200px;
+}
+.hi3 {
+    height: 500px;
+    width: 500px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hi4 {
+    height: 150px;
+    width: 200px;
+    border-radius: 10;
+    height: 40px;
+    width: 65px;
+    border: none;
+}
+#login {
+    height: 500px;
+    width: 500px;
+    
+}
+button {
+    height: 15;
+    width: 35;
+}
+.color_len{display:inline-block; width:200px;height:20px;}
+.color_lenp{display:block;height:20px; margin:0;}
+.color_len.len1p{background:red; width:25%}
+.color_len.len2p{background:yellow;width:50%}
+.color_len.len3p{background:brown;width:75%;}
+.color_len.len4{background:green; width:100%}
+
+.contain {
+    margin-bottom:10px;
+}
+ 
+#strength-bar {
+    width: 175.5px;
+    height: 10px;
+    background-color: aquamarine;
+    margin-top: 5px;
+}
+
+#strength-fill {
+    height: 100%;
+    width: 0%;
+    background-color: blue;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100px;
+}
+.slidename {
+    display: none;
+    width: 100%; 
+}
+.hi1{
+    cursor: pointer;
+    background-size: cover;
+}
+.hi2 {
+    height: 300px;
+    width: 200px;
+}
+.hi3 {
+    height: 500px;
+    width: 500px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hi4 {
+    height: 150px;
+    width: 200px;
+    border-radius: 10;
+    height: 40px;
+    width: 65px;
+    border: none;
+}
+#login {
+    height: 500px;
+    width: 500px;
+    
+}
+button {
+    height: 15;
+    width: 35;
+}
+.tab_class {
+    width: 70px;
+    padding: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 15px;
+}
+    br {
+        clear: both;
+    }
+    .active {
+        background-color: lightcoral;
+        font-weight: bold;
+    }
+    .tab-content{
+        margin-top: 10px;
+    }
+    #h16 {
+        height: 500px;
+        width: 500px;
+    }
+
+#formvalidation {
+    height: 700px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+h2 {
+    height: 30px;
+    width: 300px;color: lightseagreen;
+}

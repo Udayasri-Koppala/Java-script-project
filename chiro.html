@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+       <link rel="stylesheet" href="churo.css"
+</head>
+<body>
+    
+<div>
+    <center><h2>javascript Basics</h2></center>
+    <button id="" onclick="getalert();">click me</button>
+    </div>
+    <hr>
+    <div>
+        <center><h2>Display Methods</h2></center>
+    <button id="" onclick="getalert1()">click me</button>
+    <span id="result">result here</span>
+    </div>
+    <hr>
+<div>
+    <center><h2>Comments</h2></center>
+    <label for="num1">Enter number:</label>
+    <input type="text" id="num1">
+    <br>
+    <label for="num2">Enter number:</label>
+    <input type="number" id="num2">
+    <br>
+    <button onclick="calculate()">Calculate</button>
+    <br><br>
+    <div id="result_add"></div>
+    <div id="result_sub"></div>
+    <div id="result_mul"></div>
+</div>
+<hr>
+<div class="hi1">
+    <center><h2>Delete Table Rows</h2></center>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>M2</th>
+            <th>M2</th>
+            <th>E-Mail</th>
+            <th>Actions</th>
+        </tr>
+        <tr id="row11">
+            <td>Udaya sri</td>
+            <td>42</td>
+            <td>52</td>
+            <td>udayasri.koppalaa@gmail.com</td>
+            <td><p id="id1"onclick="return hid('row11')" style="background-color: brown;  cursor: pointer;">Delete</p></td>
+        </tr>
+        <tr id="row12">
+            <td>Likitha</td>
+            <td>43</td>
+            <td>55</td>
+            <td>likithakoppala39@gmail.com</td>
+            <td><p id="id2"onclick="return hid('row12')" style="background-color: brown;  cursor: pointer;">Delete</p></td>
+            </tr>
+        </table>
+</div>
+<hr>  
+<div class="hi2">
+    <center><h2>Zoom in, Zoom out and Mouse over Events</h2></center>
+    <div onmouseover="get_big_image();" onmouseleave="get_normal_image();">
+    <img src="chbh.jpeg" width="200px" height="300px" id="img_id">
+</div>
+ <hr>
+<div class="hi3">
+    <center><h2>Word Count</h2></center>
+    <p>Get complete details about text</p>
+    <textarea id="get_word_count"onkeyup="get_word_count()"></textarea><br><br>
+    <p class="text">Text Count</p><p class="result" id="result_here"></p><br>
+    <p class="text">Word Count</p><p class="result" id="result_here_word"></p><br>
+    <p class="text">Capital Letters</p><p class="result" id="result_here_cap"></p><br>
+    <p class="text">Lower Letters</p><p class="result" id="result_here_low"></p><br>
+</div>
+<hr>
+
+ <div>
+    <center><h2>popup Window</h2></center>
+    <a href="" onclick="newWindow()">Get popup</a>
+</div>
+<hr> 
+<div class="birthday">
+    <center><h2>Birth Day Announcements</h2></center>
+    <div id="change_color_id">
+       <p id="birth">
+        Birth Day Name:
+       </p> 
+        </div><br><br>
+        <button id="click  me" onclick="get_date_details();">Date Details</button>
+    </div>
+    <hr>
+<div>
+    <center><h2>Progress Bar</h2></center>
+        <form action="">
+            <div class="contain">
+                <label for="paw"><b>Password</b></label>
+                <input type="password" id="paw" placeholder="Enter password" onkeyup="checkStrength();"required>
+                </div>
+                </form>
+                <div id="strength-bar">
+                    <div id="strength-fill"></div>
+                </div>
+                <p id="result"></p> 
+</div>
+    <hr>
+    <h2>Add Row</h2>               
+    <div class="parent">
+        <label for="inp" id="name">Name</label>
+        <input type="text" id="inp" style="width:300px; cursor:pointer;"><br>
+        <br>
+        <br>
+        <button id="btn-9">Add New Row</button>
+    </div>
+    
+    
+    <script src="chiro.js"></script>
+
+
+
+
+
+    <hr>
+<div>
+    <center><h2>Slide Show</h2></center>
+    <div class="content">
+        <div class="container">
+            <br>
+            <img class="slidename" src="chbh.jpeg" alt="1">
+            <img class="slidename" src="chutki.jpeg" alt="2">
+            <!-- <img class="slidername" src="krishna.jpeg" alt="3">
+             <img class="slidername" src="bheem.jpeg" alt="4">   -->
+            <br>
+            <p>
+            <pre>
+    <button onclick="next(-1)" class="btn prev">prev</button>                                    <button onclick="next(1)" class="btn prev">Next</button>          
+    </pre>
+    </p>
+        </div>
+      </div>
+      <hr>
+
+      <div>
+       <center><h2>Tabs</h2></center> 
+    
+        <div id="hi6">
+            <div style="height: 400px; width: 1000px;">
+                <span onclick="return show(this.id);" id="tab1" class="tab_class">Bheem</span>
+                <span onclick="return show(this.id);" id="tab2" class="tab_class">chutki</span>
+                <span onclick="return show(this.id);" id="tab3" class="tab_class">krishna</span>
+    
+                <div id="tab1_result" class="tab_content">
+                    Bheem <br><br>
+                    The show revolves around Bheem and his team using their skills to solve various problems affecting the village, unravel mysteries, fight evil villains that seek to harm Dholakpur and/or its inhabitants, or foil the plans of their rivals Kalia, Dholu, and Bholu, who aim to embarrass Bheem.
+                    <br><br><br>
+                    <img src="chbh.jpeg" style="height:200px;" width="300px">
+                </div>
+    
+                    <div id="tab2_result" class="tab_content" style="display: none;">
+                        chutki <br><br>
+                        In the popular animated series Chhota Bheem, Chutki is a young, intelligent girl who serves as Bheem's best friend and often relies on her wits to help him solve problems and overcome challenges. She is known for her quick thinking, sharp mind, and ability to come up with innovative solutions. Chutki also plays a role as Bheem's confidante and someone he can rely on for support and encouragement.
+                        <br><br><br>
+                        <img src="chutki.jpeg" style="height:300px;" width="300px">
+                    </div>
+                    
+                        <div id="tab3_result" class="tab_content" style="display: none;">
+                            krishna <br><br>
+                            In the Chhota Bheem series, Krishna is a divine figure who often appears to assist Bheem and his friends in overcoming challenges. He is a resident of Dwarka and sometimes appears in Devpur, acting as a guardian. Krishna's role typically involves offering help beyond human capabilities, such as providing cures or defeating powerful enemies like Kirmada. 
+                            <br><br><br>
+                            <img src="krishna.jpeg" style="height:200px;" width="300px">
+                        </div>
+            </div>
+        </div>
+    </div>
+        <hr>        
+       <center>  <h2>Form Validation</h2></center>
+         <div id="formvalidation">
+            <form method="post" enctype="multipart/form-date" action="">
+                <br>
+                <br>
+                <div style="height:20px; width: 300px; border:1px solid red; color: violet;"><b>STUDENT DETAILS</div>
+                    <br><br>
+                    <li><label for="fname" class="required">Candicate Name</label>
+                        <input type="text" onblur="return validate1()" required="" name="pr_name" value="" class="text jsid_3">
+                        <span style="color:red;" id="pr_name_result"></span></li>
+                        <br><br>
+                        <li><label for="iname" class="required">Candicate Name</label>
+                            <input type="file" onblur="validate1()" required="" name="pr_img" value="" id="pr_img" class="text jsid_4">
+                            <span style="color:red;" id="pr_img_result"></span></li>
+                            <br><br>
+                            <li><label for="email" class="required">Number</label>
+                                <input type="text" onblur="validate1()" required="" name="pr_cost" value="" id="pr_cost" class="text jsid_5">
+                                <span style="color:red;" id="pr_cost_result"></span></li>
+                                <br><br>
+                                <li><label for="email" class="required">Email</label>
+                                    <input type="email" onblur="validate1()" required="" name="pr_email" id="pr_email" value="" class="text jsid_5">
+                                    <span style="color:red;" id="pr_email_result"></span></li>
+                                    <br><br>
+                                    <li><label for="email" class="required">Gender</label>
+                                        <input type="radio" id="male" onclick="validate1()" value="male" name="gender">male
+                                    </li>
+                                    <input type="radio" id="female" onclick="validate1()" value="female" name="gender">female
+                                    <span style="color:red;" id="male_result"></span>
+                                    <br><br>
+                                    Languages:
+                                    <br><br>
+                                    Telugu<input type="checkbox" name="lang" onclick="validate1()" id="tel" value="Telugu"><br>
+                                    English<input type="checkbox" name="lang" onclick="validate1()" id="eng" value="English"><br>
+                                    Hindi<input type="checkbox" name="lang" onclick="validate1()" id="hin" value="Hindi"><br><br>
+                                    Select Area
+                                    <select name="area" onchange="validate1()" id="area">
+                                        <option value="">Select Area</option>
+                                        <option value="Hyderabad">Hyderabad</option>
+                                        <option value="Visakhapatanam">Visakhapatanam</option>
+                                        <option value="Vizianagaram">Vizianagaram</option>
+                                    </select><span style="color:red;" id="area_result"></span>
+                                    <br><br><br>
+                                    <li class="submit">
+                                        <input type="submit" class="i-btn" onclick="return validate();" name="pr_sub_btn" id="pr_sub_btn" value="AddDetails">
+                                        <span style="color:red;"></span>
+                                        <div class="clear"></div>
+                                    </li>
+                                </form>
+                            </div>
+                        <hr>
+    <center><h2> Dynamically Add Row</h2></center>                           
+<!-- <div class="parent">
+    <label for="inp" id="name">Name</label>
+    <input type="text" id="inp" style="width:300px; cursor:pointer;"><br>
+    <br>
+    <br>
+    <button id="btn-9">Add New Row</button>
+</div>
+
+
+<script src="chiro.js"></script> -->
+    
+    
+<div class="hi4">
+    <center><h2>Image Scrolling</h2></center>
+    <marquee id="scroller" scrollamount="20" onmouseover="return_get_stop();"onmouseleave="return_get_start();" width="300px"height="300px">
+    <img src="chbh.jpeg"><img src="chutki.jpeg">
+    </marquee>
+</div>
+
+<script src="chiro.js" type="text/javascript">
+       </script>
+</body>
+</html>
